@@ -5,4 +5,4 @@ isMultiple a
   | otherwise = False
 
 main :: IO ()
-main = print $ sum $ filter isMultiple [1 .. 999]
+main = print $ sum $ filter isMultiple [3 .. 999]
